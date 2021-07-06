@@ -16,18 +16,17 @@ body{
   background-repeat: no-repeat;
   background-position: center; */
   background-color: #293542;
-  color: rgb(204, 204, 204);
+  color: #cccccc;
 }
 .flex-container{
   display: flex;
-  /* justify-content: center; */
 }
 
 .helf-width{
   width: 50%;
 }
 
-.home-text{
+.header-text{
   padding: 50px 50px;
 }
 h1{
@@ -37,7 +36,6 @@ h1{
 }
 p{
   padding: 30px 0;
-  text-transform:lowercase ;
   font-size: 1rem;
   font-family: 'Roboto Mono', monospace;
 }
@@ -45,7 +43,7 @@ p{
   text-decoration: none;
   color: #fff;
   padding: 10px 30px;
-  background-image:linear-gradient(to left, #b42727, #FBA24F );
+  background-image:linear-gradient(to left bottom, #b42727, #FBA24F );
   border-radius:15px;
   font-family: 'Roboto Mono', monospace;
   font-size: 1.2rem;
@@ -53,13 +51,27 @@ p{
 .color-text{
 color: #FBA24F;
 }
-.home-img{
+img{
   height: 50%;
   width: 50%;
 }
-.home-img img{
+.img img{
   width: 500px;
   height: 500px;
   display: block;
   margin: 0 auto;
+}
+#about-me{
+  padding: 10vh 0;
+  background-color: #464646;
+  color: #cccccc;
+}
+#about-me p{
+padding: 0;
+}
+
+#about-me .button{
+  display: inline-block;
+  margin: 50px 0;
+  
 }
