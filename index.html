@@ -9,24 +9,35 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;1,200&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
   <!-- font  -->
+
+  <link rel="shortcut icon"  href="./images/fav.png" type="image/x-icon">
   <title>Food Village</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav id="navbar" class="flex-container">
+    <a href="#home"><img src="./images/logo4.png" alt=" logo" class="logo"></a>
+    <ul class="navbar-item">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about-me">About-me</a></li>
+      <li><a href="#recipices">Recipices</a></li>
+      <li><a href="#contact">Contact-me</a></li>
+      <li><a href="#social-info">Social</a></li>
+    </ul>
+  </nav>
+
   <section id="home" class="section">
     <div class="flex-container">
       <div class="helf-width header-text">
         <h1><span class="color-text">If you</span> Keep good food</h1>
         <h1> in your fridge, eat</h1>
-        <h1> good food.</h1>
-        <p>
-          To keep the body in good health is a duty, otherwise we shall not be able to keep out mind strong and clear.
-        </p>
-        <a class="button" href="#">Order Food</a>
+        <h1> good <span class="color-text">food.</span></h1>
+        <p>To keep the body in good health is a duty, otherwise we shall not be able to keep out mind strong and clear.</p>
+        <a target="_blank" class="button" href="https://www.linkedin.com/in/md-nahid-ahmed-80b926215/">Order Food</a>
 
       </div>
       <div class="helf-width img">
-        <img src="./images/Group 50.png" alt="">
+        <img src="./images/Group 50.png" alt="cook image">
       </div>
     </div>
   </section>
@@ -34,7 +45,7 @@
   <section id="about-me" class="section">
     <div class="flex-container">
       <div class="helf-width img">
-        <img class="img" src="./images/my-bg1.png" alt="">
+        <img class="img" src="./images/my-bg1.png" alt="my images">
       </div>
       <div class="helf-width header-text">
         <h1>About Me</h1>
@@ -44,14 +55,14 @@
         <p>Student At: Programing Hero</p>
         <p>Country : BanglaDesh</p>
         <p>Lives in : Pabna</p>
-        <a href="#" class="button">Contact me</a>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100047821750933" class="button">Contact me</a>
       </div>
     </div>
 
   </section>
 
   <section id="recipices" class="section">
-    <div class="recipi-header">
+    <div class="recipi-header sub-header">
       <h2>My Recipies</h2>
       <p>Food covers everything we eat, how we make it, where we get it, how we eat and serve it, and more. From amaretto sours and ube to cooking tools.</p>
     </div>
@@ -59,7 +70,7 @@
     <div class="recipi-card flex-container">
       <div class="card">
         <div class="card-img">
-          <img src="./images/Project Cover1.jpg" alt="">
+          <img src="./images/Project Cover1.jpg" alt="recipices">
         </div>
         <div class="card-text">
           <h3>Vegetable Soup</h3>
@@ -70,7 +81,7 @@
       <!-- card 2 -->
       <div class="card">
         <div class="card-img">
-          <img src="./images/mutton_biryani.jpg" alt="">
+          <img src="./images/mutton_biryani.jpg" alt="recipices">
         </div>
         <div class="card-text">
           <h3>Mutton Biryani</h3>
@@ -81,19 +92,54 @@
       <!-- card 3 -->
       <div class="card">
         <div class="card-img">
-          <img src="./images/lynette-dsouza.jpg" alt="">
+          <img src="./images/lynette-dsouza.jpg" alt="recipices">
         </div>
         <div class="card-text">
           <h3>Chicken Kabab </h3>
           <p>Cook Chicken Kabab Fry (Mangalorean) in the comfort of your home with BetterButter. Tap to view the</p>
         </div>
       </div>
+  </div>
+  </section>
 
+  <section id="social-info" class="section flex-container">
+    <div class="box">
+      <h1>700K</h1>
+      <p>YouTube Subscribers</p>
+    </div>
+    <div class="box">
+      <h1>2.4m</h1>
+      <p>Instagram Fllowers</p>
+    </div>
+    <div class="box">
+      <h1>100k</h1>
+      <p>Dribble Shat Likes</p>
+    </div>
+  </section>
+  <section id="contact" class="section">
+    <div class="contact-header sub-header">
+      <h2>Contact me</h2>
+      <p>Contact us pages are often the go-to.</p>
+    </div>
+    <div class="input-box">
+      <label for="name">Name :</label>
+      <input class="input" type="text" id="name" placeholder="Enter your Name">
 
+      <label for="email">Email :</label>
+      <input class="input"  type="email" id="email" placeholder="Enter your Email">
+      <label for="massage">Massage :</label> 
+      <textarea class="input"  name="massage" id="massage" placeholder="Write something here" cols="30" rows="7"></textarea>
+
+      <a class="contact-btn" href="#contact">Submit</a>
 
     </div>
 
   </section>
+
+  <footer id="footer" class="section">
+    <h1><span class="color-text">FOOD</span> Villag<span class="color-text">e</span></h1>
+    <p>Eat healthy to live healthy. Live healthy to live happy.</p>
+  </footer>
   
 
 

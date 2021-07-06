@@ -1,10 +1,33 @@
-/* font-family: 'Poppins', sans-serif; */
-/* font-family: 'Roboto Mono', monospace; */
-/* font-family: 'Rubik', sans-serif; */
 
+html{
+  scroll-behavior: smooth;
+}
 body{
   margin: 0;
   font-family: 'Rubik', sans-serif;
+}
+#navbar{
+  height: 10vh;
+  width: 100%;
+  background-color:#555555;
+  font-family: 'Roboto Mono', monospace;
+  justify-content:space-around;
+  align-items: center;
+  position: fixed;
+}
+#navbar img{
+  height: 40px;
+  width: 130px;
+  cursor: pointer;
+}
+.navbar-item li{
+  list-style: none;
+  display: inline-block;
+  margin: 0px 20px;
+}
+.navbar-item li a{
+  text-decoration: none;
+  color: #fff;
 }
 .section{
   height:auto;
@@ -14,6 +37,12 @@ body{
   padding: 50px 50px;
   border-bottom: 1px solid #d6d6d6;
   color: #444444;
+}
+.sub-header{
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 #home{
   background-image: url('images/top-banner.png');
@@ -81,16 +110,6 @@ padding: 0;
   margin: 50px 0;
 }
 
-#recipices{
-  
-}
-.recipi-header{
-  width: 50%;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-}
-
 .recipi-card{
   padding: 40px 0;
   justify-content: space-evenly;
@@ -116,4 +135,56 @@ padding: 0;
 }
 .card p{
   font-family: 'Rubik', sans-serif;
+}
+#social-info{
+  justify-content: space-evenly;
+  text-align: center;
+  color: #302f2f;
+  padding-top: 100px;
+}
+#social-info p{
+  margin-top: 10px;
+}
+#contact{
+  /* background-color: #444444; */
+  width: 60%;
+  margin: 0 auto;
+}
+
+#footer{
+  background-color:#383841;
+  color: #fff;
+  text-align: center;
+}
+.input-box{
+  padding: 20px;
+  border: 1px solid #cecece;
+  font-family: 'Roboto Mono', monospace;
+}
+.input{
+  width: 94%;
+  padding: 8px 20px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
+  margin-top:10px;
+  margin-bottom: 20px;
+}
+label{
+  font-size: 1rem;
+  /* padding: 10px; */
+  display: block;
+  padding-bottom: 10px 0;
+  font-weight: 500;
+
+}
+.contact-btn{
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 15px 0;
+  color: #fff;
+  background-color: #383841;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 3px;
 }
