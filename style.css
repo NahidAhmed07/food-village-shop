@@ -17,7 +17,7 @@ body{
 }
 #navbar img{
   height: 40px;
-  width: 130px;
+  width: 170px;
   cursor: pointer;
 }
 .navbar-item li{
@@ -152,7 +152,7 @@ padding: 0;
 }
 
 #footer{
-  background-color:#383841;
+  background-color:#555555;
   color: #fff;
   text-align: center;
 }
